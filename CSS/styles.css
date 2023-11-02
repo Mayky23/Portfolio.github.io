@@ -7,7 +7,7 @@ body {
 }
 
 header {
-    background-color: black;
+    background-color: #212121;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -36,6 +36,21 @@ main img {
     display: block;
     margin: 0 auto;
 }
+main img.qr-image {
+    max-width: 20%; /* ajusta el ancho según sea necesario */
+    display: block;
+    margin: 0 auto;
+}
+main .centered-text {
+    text-align: center; /* Añade esta línea para centrar los textos <p> específicos dentro de <main> */
+}
+main .small-image {
+    max-width: 50%; /* ajusta el ancho según sea necesario */
+    height: auto; /* mantiene la proporción de la imagen */
+    display: block;
+    margin: 0 auto;
+}
+
 
 article {
     margin-bottom: 20px;
@@ -63,7 +78,7 @@ aside img {
 footer {
     text-align: center;
     padding: 10px;
-    background-color: black;
+    background-color: #212121;
     color: #fff;
 }
 
