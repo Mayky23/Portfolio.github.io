@@ -13,6 +13,7 @@ body {
 header {
     padding: 20px;
     text-align: center;
+    margin-top: none;
 }
 
 header .containerSuperior {
@@ -27,12 +28,12 @@ header .containerSuperior {
 main {
     max-width: 400px;
     width: 90%;
-    margin: 20px auto;
+    margin: auto;
     padding: 20px;
     background-color:  rgba(0, 0, 0, 0.5); 
     font-size: 17px;
     border-radius: 10px;
-    margin-bottom: 25px; /* Cambiado el margen inferior aquí */
+    margin-bottom: auto;
 }
 
 main img.main-image {
@@ -58,6 +59,7 @@ main .small-image {
     height: auto; 
     display: block;
     margin: 0 auto;
+    border-radius: 10%;
 }
 
 footer {
